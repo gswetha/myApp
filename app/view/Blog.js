@@ -1,0 +1,29 @@
+Ext.define('MyApp.view.Blog', {
+	extend: 'Ext.navigation.View',
+	xtype: 'blog',
+
+	config: {
+		title: 'Blog',
+		iconCls: 'star',
+
+		items: {
+			xtype: 'list',
+			itemTpl: '{title}', //render title pulled by JSON proxy and display it
+			title: 'Recent Posts',
+
+			store: {
+				autoLoad: true,
+				fields: ['title', 'author', 'content'],
+
+				proxy: {
+                    type: 'jsonp',
+                    url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://feeds.feedburner.com/SenchaBlog',
+                    reader: {
+                        type: 'json',
+                        rootProperty: 'responseData.feed.entries'
+                    }
+                }
+			}
+		}
+	}
+});
