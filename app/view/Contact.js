@@ -22,30 +22,35 @@ var formPanel = Ext.define('Contact', {
                 items: [
 					{
 						xtype: 'textfield',
+						cls: 'fieldlabel',
 						name: 'name',
 						label: 'Name',
 						labelAlign: 'top'
 					},
 					{
 						xtype: 'emailfield',
+						cls: 'fieldlabel',
 						name: 'email',
 						label: 'Email',
 						labelAlign: 'top'
 					},
 					{
 						xtype: 'passwordfield',
+						cls: 'fieldlabel',
 						name: 'password',
 						label: 'Password',
 						labelAlign: 'top'
 					},
 					{
 						xtype: 'textareafield',
+						cls: 'fieldlabel',
 						name: 'message',
 						label: 'Message',
 						labelAlign: 'top'
 					},
 					{
                         xtype: 'datepickerfield',
+						cls: 'fieldlabel',
                         name: 'date',
                         label: 'Start Date',
 						labelAlign: 'top',
@@ -56,6 +61,7 @@ var formPanel = Ext.define('Contact', {
                     },
                     {
                         xtype: 'selectfield',
+						cls: 'fieldlabel',
                         name: 'rank',
                         label: 'Rank',
                         labelAlign: 'top',
@@ -71,11 +77,12 @@ var formPanel = Ext.define('Contact', {
                     },
                     {
                         xtype: 'spinnerfield',
+						// cls: 'fieldlabel',
                         name: 'spinner',
                         label: 'Spinner',
                         labelAlign: 'top',
                         increment: 1
-                    },
+                    }
 				]
             },
             {

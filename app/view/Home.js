@@ -12,7 +12,7 @@ Ext.define('MyApp.view.Home', {
 
 		html: [
             '<img height="260" src="http://staging.sencha.com/img/sencha.png">',
-            '<h1>Welcome to Sencha Touch</h1>',
+            '<h1 style="align:center">Welcome to Sencha Touch</h1>',
             "<p>We're creating the Getting Started app, which demonstrates how ",
             "to use tabs, lists, and forms to create a simple app.</p>",
             '<h2>Sencha Touch</h2>'
