@@ -74,6 +74,10 @@
         {
             "path": "resources/css/app.css",
             "update": "delta"
+        },
+        {
+            "path": "resources/css/mystyles.css",
+            "update": "delta"
         }
         // {
         //     "path": "resources/css/cupertino.css",

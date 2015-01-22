@@ -1,0 +1,17 @@
+.fieldlabel .x-form-label span {
+  font-family: PTSans-Regular;
+  font-size: 24px;
+  color: #00B6FF;
+  line-height: 113%;
+}
+
+.x-field .x-input-el {
+  font-family: PTSans-Regular;
+  font-size: 32px;
+  color: #024680;
+  line-height: 113%;
+}
+
+.x-item-disabled {
+  color: #062C4B;
+}

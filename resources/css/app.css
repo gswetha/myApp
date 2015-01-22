@@ -2945,14 +2945,8 @@ audio {
   display: none !important;
 }
 /* line 5, ../../touch/resources/themes/stylesheets/sencha-touch/base/src/form/_Panel.scss */
-/*.x-form-label span {
+.x-form-label span {
   font-weight: bold;
-}*/
-.fieldlabel .x-form-label span {
-  font-family: PTSans-Regular;
-  font-size: 24px;
-  color: #00B6FF;
-  line-height: 113%;
 }
 /* line 9, ../../touch/resources/themes/stylesheets/sencha-touch/base/src/form/_Panel.scss */
 .x-form-label-nowrap .x-form-label {
